@@ -40,3 +40,17 @@ temp/
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+
+# Rust
+target/
+**/*.rs.bk
+*.pdb
+
+# Backup files
+*.bak
+*.old
+
+# AI tooling state
+.claude-flow/
+.swarm/
+claudedocs/.claude-flow/

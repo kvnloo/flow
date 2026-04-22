@@ -1,0 +1,16 @@
+Dashboard Name,Primary Purpose,Key Widgets,Data Visualization,Interaction Features,Update Frequency
+Agent Orchestration Overview,Real-time multi-agent coordination visualization,"Canvas (agent graph), Tabs, Block",Agent network topology with clustering,"Tab switching, agent selection, zoom/pan",200-500ms
+Agent Status & Metrics,Monitor all agents with key performance indicators,"Table, Gauge, LineGauge, Sparkline","Status colors, progress bars, metric sparklines","Sort by column, filter by status, search",100-300ms
+Real-time Log Console,Stream and filter agent outputs and logs,"List, Paragraph (scrollable), Scrollbar","Syntax highlighting, log level colors","Scroll, search, filter, pause/resume",50-100ms (on new data)
+Artifact/Output Viewer,Display and manage agent-generated artifacts,"Table (files), Paragraph (preview), Canvas","File tree, syntax highlighting","Open in external editor, copy to clipboard","On-demand, 500ms"
+Metrics & Performance Dashboard,"Track API costs, tokens, time, and resource usage","Gauge, Chart, Sparkline, BarChart","Line charts (costs over time), gauges (resources)","Toggle metrics, time range selection",1-5s
+Task & Goal Hierarchy View,Quest log style high-level task management,"List, Tree (custom), Paragraph","Task status indicators, dependency visualization","Expand/collapse tasks, mark complete",500ms or on change
+Memory & Learning Panel,Display compressed session summaries and discoveries,"List, Paragraph (with scrolling), Block","Bookmarked findings, session summaries","Pin/unpin items, search, expand details",2-5s
+Mode-Aware Context View,Adaptive UI based on orchestrator mode (research/code/plan),"Dynamic widget swapping, tabs",Mode-specific emphasis and layout,Manual mode toggle or auto-detect,On mode change
+Agent Detail Inspector,Deep dive into individual agent state and output,"Table, Paragraph, Chart, Canvas","Agent timeline, detailed task log, resource usage","Pagination, scroll through history",200-500ms
+Network Activity Graph,Visualize message flow between agents,"Canvas (animated), Lines/arrows","Animated connections, message counters","Highlight agent, follow message trail",100-200ms
+Command Prompt & Control Panel,User input and system command interface,"Paragraph (input field), List (suggestions)","Autocomplete hints, command history","Text input, autocomplete, history navigation",Instant (user-driven)
+Authentication & Config Panel,API key management and OAuth flow,"Paragraph, Gauge (OAuth progress), Block","Status indicators, progress bar","Copy to clipboard, open browser, confirm",On-demand
+Advanced Filter/Search Panel,Comprehensive filtering across multiple dimensions,"List (checkboxes), Paragraph (search box)","Filter categories, active filter chips","Multi-select, date range, regex support",Instant on input
+Adaptive Complexity Control,Progressive disclosure of advanced features,"Tabs, Paragraph, List (toggles)",Feature lists organized by complexity,"Enable/disable panels, reset to defaults",On toggle
+Collaboration View,Multi-client real-time observation and control,"List (clients), Gauge (sync status), Block","Active user indicators, sync status","Follow user, request control, chat input",100-200ms
